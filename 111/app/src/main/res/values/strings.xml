@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">2022110658曾益</string>
+    <string name="textview">hello world</string>
+    <string name="button">Click me</string>
+    <string name="clicked">I am clicked</string>
+</resources>
