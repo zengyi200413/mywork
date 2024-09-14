@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">曾益2022110658</string>
+    <string name="button">确定</string>
+    <string name="button2">ADD TEXTVIEW</string>
+    <string name="message">This is a textview</string>
+
+</resources>

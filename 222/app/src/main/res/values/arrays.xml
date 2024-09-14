@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="list">
+    <item>快速</item>
+    <item>容易</item>
+    <item>新语言</item>
+    <item>面向对象</item>
+</string-array>
+</resources>
