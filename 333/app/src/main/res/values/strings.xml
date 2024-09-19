@@ -1,0 +1,19 @@
+<resources>
+    <string name="曾益2022110658">3</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="third_activity">Third Activity</string>
+    <string name="input_something">input something</string>
+    <string name="confirm">确定</string>
+    <string name="forth_activity">forth Activity</string>
+    <string name="fifth_activity">fifth Activity</string>
+    <string name="timer">00:00:00</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="restart">restart</string>
+    <string name="start_stop_watch">Start Stop Watch</string>
+    <string name="button">Button</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="todo">TODO</string>
+    <string name="enter_some_text">Enter some text</string>
+    <string name="confirm1">Confirm</string>
+</resources>
