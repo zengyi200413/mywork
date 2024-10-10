@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 九宫格 -->
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alignmentMode="alignBounds"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:useDefaultMargins="true">
+
+        <!-- 创建9个按钮 -->
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_1"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_2"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_3"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_4"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_5"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_6"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_7"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_8"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_9"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_10"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_11"
+
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_12"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_13"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_14"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_15"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/_16"
+            tools:ignore="VisualLintButtonSize" />
+
+    </GridLayout>
+
+    <!-- 下方的两个按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重置"
+            android:layout_marginEnd="16dp"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Score" />
+
+    </LinearLayout>
+
+</LinearLayout>
